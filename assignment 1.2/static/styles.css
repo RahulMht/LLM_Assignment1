@@ -1,0 +1,48 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+}
+
+.card-title {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+#plot {
+    height: 600px;
+    width: 100%;
+}
+
+#neighborsList {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.neighbor-item {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.neighbor-item:last-child {
+    border-bottom: none;
+}
+
+.form-control:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+} 
